@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    font-family:'Cormorant Garamond', serif;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 8%;
+}
+
+.logo{
+    font-size:40px;
+    font-weight:700;
+    letter-spacing:5px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:7rem;
+    max-width:1200px;
+    line-height:0.9;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.5rem;
+}
+
+.section{
+    padding:120px 10%;
+    text-align:center;
+}
+
+.section h2{
+    font-size:4rem;
+    margin-bottom:30px;
+}
+
+.section p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.4rem;
+    line-height:1.8;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.card{
+    border:1px solid white;
+    padding:40px;
+}
+
+.card h3{
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+footer{
+    text-align:center;
+    padding:60px 20px;
+    border-top:1px solid #333;
+}
+
+footer h3{
+    font-size:3rem;
+}
